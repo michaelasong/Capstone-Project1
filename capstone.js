@@ -11,7 +11,8 @@ const speakers = [
     name: "Ojong Joel",
     post: "Vice Principal",
     image: "/Images/personel 1.png",
-    summary: "looooo",
+    summary: "The Principal's main focus should be to develop and maintain effective educational programs within his/her school and to promote the improvement of teaching and learning with his/her school.",
+
   },
   {
     name: "Tangdou Helen",
@@ -23,19 +24,22 @@ const speakers = [
     name: "Mario Ajeba",
     post: "Vice Principal",
     image: "/Images/personel 1.png",
-    summary: "....",
+    summary: "The Principal's main focus should be to develop and maintain effective educational programs within his/her school and to promote the improvement of teaching and learning with his/her school.",
+
   },
   {
     name: "Atangana Marie therese.F",
     post: "Vice Principal",
     image: "/Images/personel4.png",
-    summary: ",,,,,",
+    summary: "The Principal's main focus should be to develop and maintain effective educational programs within his/her school and to promote the improvement of teaching and learning with his/her school.",
+
   },
   {
     name: "Tagne Kevin J.M",
     post: "Vice Principal",
     image: "/Images/personel 3.png",
-    summary: "hi hi hi",
+    summary: "The Principal's main focus should be to develop and maintain effective educational programs within his/her school and to promote the improvement of teaching and learning with his/her school.",
+
   },
 ];
 

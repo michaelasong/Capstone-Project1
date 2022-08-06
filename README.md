@@ -12,8 +12,8 @@ CSS
 JAVASCRIPT
 
 ## Live Demo (if available)
+https://michaelasong.github.io/Capstone-Project1/
 
-[Live Demo Link](https://livedemo.com)
 
 
 ## Getting Started
@@ -28,13 +28,10 @@ A computer and internet connect
 
 Clone Reprository
 
-### Install
+Open Git locally and clone reprository
 
-### Usage
+there you go!!
 
-### Run tests
-
-### Deployment
 
 
 
