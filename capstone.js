@@ -71,4 +71,8 @@ function featureSpeakers() {
   }
 }
 
+function navclick(x) {
+  x.classList.t
+}
+
 window.addEventListener('DOMContentLoaded', (e) => featureSpeakers(e));
