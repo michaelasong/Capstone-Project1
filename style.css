@@ -209,8 +209,26 @@ padding: 15px;
   grid-auto-flow: column;
   justify-content: center;
   align-content: center;
-  gap: 10px;
-  margin: 54px auto;
+  gap: 3px;
+  margin: 30px auto;
+}
+
+.grid-item1 {
+  height: 150px;
+  width: 150px;
+  border: 1px solid white;
+}
+
+.grid-item1:hover {
+  background-color: grey;
+  border: none;
+  opacity: 0.6;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.grid-item1 h3 {
+  color: orangered;
 }
 
 .line {
