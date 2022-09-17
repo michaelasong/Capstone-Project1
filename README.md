@@ -9,7 +9,7 @@ In this project, I will set up a Capstone repository. Html Css and javascript ar
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link] https://michaelasong.github.io/Capstone-Project1/
 
 To get a local copy up and running follow these simple example steps.
 
@@ -48,9 +48,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+ - Hat tip to Cindy Shin the author of the original design
 
 ## 📝 License
 
