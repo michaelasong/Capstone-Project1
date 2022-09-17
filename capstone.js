@@ -1,63 +1,75 @@
+/* eslint-disable quotes */
 const speakers = [
   {
-    name: 'Miles Obi',
-    post: 'Principal',
-    image: '/Images/personel 1.png',
+    name: "Miles Obi",
+    post: "Principal",
+    image: "/Images/personel 1.png",
     summary:
-      'The Principal\'s main focus should be to develop and maintain effective educational programs within his/her school and to promote the improvement of teaching and learning with his/her school.',
+      "The Principal's main focus should be to develop and maintain effective educational programs within his/her school and to promote the improvement of teaching and learning with his/her school.",
   },
   {
-    name: 'Ojong Joel',
-    post: 'Vice Principal',
-    image: '/Images/personel 1.png',
-    summary: 'looooo',
+    name: "Ojong Joel",
+    post: "Vice Principal",
+    image: "/Images/personel 1.png",
+    summary: "The Principal's main focus should be to develop and maintain effective educational programs within his/her school and to promote the improvement of teaching and learning with his/her school.",
+
   },
   {
-    name: 'Tangdou Helen',
-    post: 'Discipline Master',
-    image: '/Images/personel2.png',
-    summary: 'Niiiiii',
+    name: "Tangdou Helen",
+    post: "Discipline Master",
+    image: "/Images/personel2.png",
+    summary: "Niiiiii",
   },
   {
-    name: 'Mario Ajeba',
-    post: 'Vice Principal',
-    image: '/Images/personel 1.png',
-    summary: '....',
+    name: "Mario Ajeba",
+    post: "Vice Principal",
+    image: "/Images/personel 1.png",
+    summary: "The Principal's main focus should be to develop and maintain effective educational programs within his/her school and to promote the improvement of teaching and learning with his/her school.",
+
   },
   {
-    name: 'Atangana Marie therese.F',
-    post: 'Vice Principal',
-    image: '/Images/personel4.png',
-    summary: ',,,,,',
+    name: "Atangana Marie therese.F",
+    post: "Vice Principal",
+    image: "/Images/personel4.png",
+    summary: "The Principal's main focus should be to develop and maintain effective educational programs within his/her school and to promote the improvement of teaching and learning with his/her school.",
+
   },
   {
-    name: 'Tagne Kevin J.M',
-    post: 'Vice Principal',
-    image: '/Images/personel 3.png',
-    summary: 'hi hi hi',
+    name: "Tagne Kevin J.M",
+    post: "Vice Principal",
+    image: "/Images/personel 3.png",
+    summary: "The Principal's main focus should be to develop and maintain effective educational programs within his/her school and to promote the improvement of teaching and learning with his/her school.",
+
   },
 ];
 
+// eslint-disable-next-line no-unused-vars
+function navclick(x) {
+  x.classList.toggle("toggleAll");
+  const navbar = document.querySelector(".NavBar");
+  navbar.classList.toggle("toggleMenu");
+}
+
 function featureSpeakers() {
-  const sectn3 = document.querySelector('.Speaker');
+  const sectn3 = document.querySelector(".Speaker");
 
   // eslint-disable-next-line no-plusplus
   for (let i = 0; i < speakers.length; i++) {
-    const li = document.createElement('li');
+    const li = document.createElement("li");
 
-    const div1 = document.createElement('div');
-    div1.className = 'be4';
-    const div2 = document.createElement('div');
+    const div1 = document.createElement("div");
+    div1.className = "be4";
+    const div2 = document.createElement("div");
 
     li.appendChild(div1);
     li.appendChild(div2);
 
-    const img = document.createElement('img');
+    const img = document.createElement("img");
     div1.appendChild(img);
 
-    const h4 = document.createElement('h4');
-    const h5 = document.createElement('h5');
-    const p = document.createElement('p');
+    const h4 = document.createElement("h4");
+    const h5 = document.createElement("h5");
+    const p = document.createElement("p");
 
     div2.appendChild(h4);
     div2.appendChild(h5);
@@ -71,8 +83,4 @@ function featureSpeakers() {
   }
 }
 
-function navclick(x) {
-  x.classList.t
-}
-
-window.addEventListener('DOMContentLoaded', (e) => featureSpeakers(e));
+window.addEventListener("DOMContentLoaded", (e) => featureSpeakers(e));

@@ -132,7 +132,8 @@ body {
   background-position: center;
   background-color: whitesmoke;
   width: 100%;
-  padding: 80px 30px 30px 30px;
+  height: 700px;
+  padding: 80px 30px 30px 70px;
 }
 
 .Aboutfirsthead {
@@ -168,6 +169,11 @@ body {
   background: -webkit-linear-gradient(orangered, rgb(122, 83, 21, 60%));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-size:70px;
+}
+.secondhead {
+color: #2e3033;
+padding: 15px;
 }
 
 .program {
