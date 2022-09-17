@@ -127,6 +127,7 @@ body {
   background-image: url("./Images/big.png");
   background-size: contain;
   background-position: center;
+  background-color: whitesmoke;
   width: 100%;
   padding: 80px 30px 30px 30px;
 }
@@ -143,7 +144,7 @@ body {
 
 .petit {
   color: #2e3033;
-  border: rgb(255, 111, 0) 2px solid;
+  border: white 2px solid;
   width: fit-content;
   padding: 10px;
   margin-top: 10px;
